@@ -42,7 +42,7 @@ public class ExcelDemoRead
         	System.out.print("\n");
 
     	}
-    	fip.close();
+    	//removed file.close
     	
     }
 } 
