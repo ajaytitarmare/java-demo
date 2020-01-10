@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class Main 
+{
+	private static Scanner sc;
+	
+	public static void main(String[] args)throws Exception
+	{
+		try
+		{
+	sc=new Scanner(System.in);
+	
+	System.out.println("Enter the number of elements in the array");
+	int n=sc.nextInt();
+	
+	int a[]=new int[n];
+	
+	System.out.println("Enter the elements in the array");
+	for(int i=0;i<n;i++)
+	{
+		a[i]=sc.nextInt();
+	}
+	
+		System.out.println("Enter the index of the array element you want to access");
+		int b=sc.nextInt();
+		
+		
+			for(int i=0;i<n;i++);
+		
+				
+			
+					System.out.println("The array element at index "+b+" = "+a[b]);
+					System.out.println("The array element successfully accessed");
+			
+				
+			
+	
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println(e.getClass().getName());
+		
+		}
+		
+		
+	}
+		
+
+	}
+
+
